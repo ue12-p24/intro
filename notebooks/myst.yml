@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: f1e0c90e-7cc8-46a8-938c-bbd63366a353
+  # title:
+  # description:
+  keywords: []
+  authors: []
+  github: https://github.com/ue12-p24/intro
+  # bibliography: []
+site:
+  template: book-theme
+  # title:
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://mystmd.org/guide
+  domains: []
