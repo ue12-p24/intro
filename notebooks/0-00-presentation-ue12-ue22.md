@@ -72,7 +72,7 @@ et non pas compétitifs; vous êtes très à l'aise ? aidez vos camarades, vous 
 
 ----
 
-ces quelques compétences en informatiques sont **incontournables** quel que soit vos futurs métiers  
+ces quelques compétences en informatiques sont **incontournables quel que soit votre futur métier**  
 
 > il vous faudra aussi les tenir à jour
 
@@ -99,7 +99,7 @@ en cas de **dificulté**: compréhension, charge de travail, rapidité des cours
 :width: 80%
 :name: table-pe
 
-* - 
+* -
   - séances
   - contenu
 
@@ -263,6 +263,31 @@ vous prendez un de ces langages au choix
 +++
 
 ## Les supports de cours
+(label-liste-cours)=
+
+```{list-table} les cours en ligne
+:header-rows: 1
+:stub-columns: 1
+
+* - cours
+  - URL
+* - intro (ce cours)
+  - <https://ue12-p24-intro.readthedocs.io/>
+* - Python numérique
+  - <https://ue12-p24-numerique.readthedocs.io/>
+* - GIT
+  - <https://ue12-p24-git.readthedocs.io/>
+* - Python avancé
+  - <https://flotpyhon-slides.readthedocs.io>
+* - C++
+  - <https://cpp.bmarchand.fr/>
+```
+
+% S2 - à paraitre
+% * - Web
+%  - <https://ue12-p24-web.readthedocs.io/>
+% * Réseau
+%  - <https://slides.bmarchand.fr/>
 
 ils contiennent
 
@@ -311,13 +336,13 @@ mais pour ça il faut avoir bien tout installé...
 on en reparle donc à la fin des installations
 
 ````{admonition} nbhosting
-:class: dropdown
+:class: dropdown admonition-small
 
-enfin les années précédentes, nous avions utilisé une plateforme hébergée sur <https://nbhosting.inria.fr>, où les notebooks étaient accessibles en *live* (code modifiable et exécutable) sans installation préalable; 
+enfin les années précédentes, nous avions utilisé une plateforme hébergée sur <https://nbhosting.inria.fr>, où les notebooks étaient accessibles en *live* (code modifiable et exécutable) sans installation préalable;
 il s'agissait essentiellement d'une facilité pour les premiers cours, de sorte que l'on puisse avancer avant que toute la promo soit entièrement bien installée sur les ordis perso.
 
 il devrait être entendu que le mode d'utilisation "normal" des notebooks est **en local sur votre ordi**,
-aussi cette année 2023, nous allons essayer de nous passer totalement de nbhosting; 
+aussi cette année 2024, nous allons nous passer totalement de cette plateforme;  
 on pourra envisager de donner un accès à ce service aux élèves qui auraient des difficultés insurmontables avec leurs installations
 ````
 
