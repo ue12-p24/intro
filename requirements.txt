@@ -26,6 +26,3 @@ jupyterlab-hidecell
 
 ipywidgets >= 8.0
 ipympl
-
-# for updating nbhosting toc from jupyter book
-ruamel.yaml
