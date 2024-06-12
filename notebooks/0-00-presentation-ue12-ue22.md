@@ -242,7 +242,7 @@ des mini-projets de programmation (notés et **personnels**)
 
 ## Les 2 langages <span style="color:blue">Python</span> et <span style="color:blue">C++</span>
 
-vous prendez un de ces langages au choix
+vous prendrez un de ces langages au choix
 > un formulaire vous sera envoyé pour le choix du langage
 
 ### <span style="color:blue">Python</span>
@@ -278,7 +278,7 @@ vous prendez un de ces langages au choix
 * - GIT
   - <https://ue12-p24-git.readthedocs.io/>
 * - Python avancé
-  - <https://flotpyhon-slides.readthedocs.io>
+  - <https://flotpython-slides.readthedocs.io>
 * - C++
   - <https://cpp.bmarchand.fr/>
 ```

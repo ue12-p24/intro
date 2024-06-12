@@ -43,12 +43,12 @@ il nous faut a minima
 * le **terminal** - nous utilisons **`bash`**, qui est
   * natif sur les OS linux et MacOS,
   * et qui vient avec le produit `git for windows`
-* **`code`**, l'éditeur de code Visual Studio Code, mieux connu comme vs-code
-* **miniconda** pour **`python`** (et les environnements virtuels)
-* **`jupyter`** pour les notebooks
+* l'**éditeur de code** Visual Studio Code, mieux connu comme vs-code
+* **miniconda** pour **Python** (et les environnements virtuels)
+* **Jupyter** pour les notebooks
   * on parlera un peu de *markdown* pour la mise en forme du texte,
   * et de $\LaTeX$ pour les formules mathématiques
-* et enfin **`git`** pour la gestion de versions  
+* et enfin **Git** pour la gestion de versions  
   c'est un outil super-utile pour le développement, c'est indispensable que vous sachiez l'utiliser
 ````
 
@@ -60,14 +60,18 @@ mais avant de commencer, voici quelques recommandations générales:
 
 +++
 
-### pour tester: créez un nouveau terminal ! (tous OS)
+### pour tester une installation: créez un nouveau terminal ! (tous OS)
 
 après avoir installé, disons par exemple vs-code, on va vérifier que ça a marché  
 et pour ça on vous dit de taper dans le terminal `code .`
 
 mais en fait l'installation de vs-code modifie **la façon dont s'initialise** le terminal  
-et du coup ça n'affecte pas les terminaux créés avant l'installation   
+et du coup ça n'**affecte pas** les terminaux créés avant l'installation   
+
+```{admonition} pensez-y !
+:class: important
 il faut donc prendre l'habitude de **lancer un nouveau terminal après une installation**  
+```
 
 ceci est notamment pertinent lorsque vous recevez une erreur comme  
 `code: command not found`  
