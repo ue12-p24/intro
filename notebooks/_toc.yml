@@ -3,10 +3,22 @@ root: 0-00-presentation-ue12-ue22-nb.md
 parts:
 - caption: installations
   chapters:
-  - glob: 1-*-nb
+  # xxx for testing early mystmd
+  # we replace glob: with file: for testing
+  - file: 1-01-installations-nb.md
+  - file: 1-02-clone-and-play-nb.md
+  # - glob: 1-*-nb
 - caption: les outils
   chapters:
-  - glob: 2-*-nb
+  - file: 2-01-terminal-os-nb.md
+  - file: 2-02-vscode-nb.md
+  - file: 2-03-python-nb.md
+  - file: 2-04-jupyter-nb.md
+  - file: 2-05-git-setup-nb.md
+  # - glob: 2-*-nb
 - caption: "compl\xE9ments"
   chapters:
-  - glob: 3-*-nb
+  - file: 3-01-checklist-nb.md
+  - file: 3-02-troubleshooting-nb.md
+  - file: 3-03-virtual-envs-nb.md
+  # - glob: 3-*-nb
