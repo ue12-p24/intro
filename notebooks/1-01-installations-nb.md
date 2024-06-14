@@ -58,15 +58,21 @@ il nous faut a minima
 
 mais avant de commencer, voici quelques recommandations générales:
 
+````{admonition} à lire attentivement !!
+:class: attention
+
+ceux qui zappent cette section ont 95% de chances de tomber dans le piège
+````
+
 +++
 
-### pour tester une installation: créez un nouveau terminal ! (tous OS)
+### comment tester une installation
 
-après avoir installé, disons par exemple vs-code, on va vérifier que ça a marché  
-et pour ça on vous dit de taper dans le terminal `code .`
+après avoir installé, disons par exemple vs-code, on va vérifier que ça a bien marché   
+et pour ça, on vous dit de taper dans le terminal `code .`
 
 mais en fait l'installation de vs-code modifie **la façon dont s'initialise** le terminal  
-et du coup ça n'**affecte pas** les terminaux créés avant l'installation   
+et du coup ça n'**affecte pas** les terminaux **créés avant** l'installation   
 
 ```{admonition} pensez-y !
 :class: important
@@ -78,7 +84,7 @@ ceci est notamment pertinent lorsque vous recevez une erreur comme
 si ce symptôme persiste même après avoir essayé dans un nouveau terminal, c'est que l'installation s'est mal passée
 
 ````{admonition} le PATH (pour les curieux)
-:class: dropdown tip
+:class: dropdown note
 
 le `PATH` c'est le mécanisme qui permet au terminal de trouver les commandes
 
@@ -214,6 +220,9 @@ vous devez pouvoir
 
 ### exercice: le dossier `cours-info`
 
+`````{admonition} pas à pas
+:class: note dropdown
+
 depuis le terminal on peut tout faire ! et pour commencer on va apprendre à **créer un dossier**  
 c'est dans ce dossier qu'on vous invite à travailler pendant les cours d'info
 
@@ -264,6 +273,7 @@ c'est dans ce dossier qu'on vous invite à travailler pendant les cours d'info
   c'est important car c'est une opération qu'on **va faire très souvent**;  
   on verra plus tard comment créer, dans l'explorateur de fichiers, [un raccourci pour pouvoir faire ça rapidement](label-raccourci-cours-info)...
   ```
+`````
 
 +++
 
@@ -640,6 +650,9 @@ python is /c/Users/JeanMineur/miniconda3/python
 
 ### exercice: vs-code + python
 
+````{admonition} pas à pas
+:class: dropdown note
+
 * créer un nouveau terminal
 * aller dans le dossier `cours-info` (on fait comment déjà ?)
 * lancez vs-code
@@ -674,6 +687,7 @@ python is /c/Users/JeanMineur/miniconda3/python
   fact(4) = 24
   fact(25) = 15511210043330985984000000
   ```
+````
 
 +++
 
@@ -828,6 +842,9 @@ pour les curieux qui veulent comprendre, le script est en bash:
 
 ### exercice: mon premier notebook (optionnel)
 
+````{admonition} pas à pas
+:class: dropdown
+
 * créez un nouveau terminal
 * allez dans `cours-info`
 * tapez la commande `jupyter lab`
@@ -852,6 +869,8 @@ pour les curieux qui veulent comprendre, le script est en bash:
 * sortez de JupyterLab en faisant *File* -> *Shutdown*
 * vous retournez dans le terminal qui maintenant fonctionne à nouveau
 
+````
+
 +++
 
 ## configuration git
@@ -864,7 +883,7 @@ ou alors vous risquez de sérieusement galérer plus tard…
 +++
 
 ````{admonition} votre identité
-:class: seealso dropdown
+:class: seealso
 
 pour commencer vous devez configurer git pour qu'il connaisse votre identité, cela sera utilisé à chaque fois que vous faites un *commit*
 
@@ -877,8 +896,8 @@ pour commencer vous devez configurer git pour qu'il connaisse votre identité, c
 
 +++
 
-`````{admonition} les autres réglages
-:class: seealso dropdown
+``````{admonition} les autres réglages
+:class: seealso`
 
 à copier-coller tel quel dans le terminal
   ````bash
@@ -903,9 +922,10 @@ pour commencer vous devez configurer git pour qu'il connaisse votre identité, c
   `git log --oneline --graph --all`
 ````
 
-````{admonition} pour utiliser vs-code avec git
+`````{admonition} pour utiliser vs-code avec git
 :class: dropdown note
 
+````{div}
 à chaque commit est associé **un message**, et git a besoin de savoir **quel éditeur de code** vous voulez utiliser pour entrer ce message
 
 dans notre cas nous allons utiliser **vs-code**, et c'est le propos du réglage qui s'appelle `core.editor`
@@ -921,13 +941,14 @@ vous pouvez utiliser par exemple `Control-W` (ou Command-W sur mac); ou encore u
 - ce n'est **pas la peine** de terminer toute votre session vs-code (vous pouvez avoir plein d'autres fichiers ouverts à ce moment-là dans vs-code)
 ```
 ````
+`````
 
 ````{admonition} command not found ?
 :class: note dropdown
   
 pour que ça fonctionne, il faut bien sûr que la commande `code` soit bien installée dans votre PATH; si vous avez `command not found` quand vous tapez `code .` dans votre terminal, [reportez-vous à la section sur ce problème](label-troubleshoot-code-command-not-found)
 ````
-`````
+``````
 
 +++
 
