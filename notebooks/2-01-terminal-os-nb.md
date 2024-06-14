@@ -183,8 +183,8 @@ et cela bien sûr parce qu'on est dans le dossier `/c/ bla bla /python`
 
 +++
 
-### `.` et `..`
 (label-bash-dot)=
+### `.` et `..`
 
 on nous donne deux outils pour naviguer dans l'arbre des fichiers; par convention:
 
