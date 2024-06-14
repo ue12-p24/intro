@@ -270,7 +270,6 @@ apprenez à la maitriser, entrainez-vous à vous déplacer dans le dossier du co
 +++
 
 ### un raccourci vers `cours-info`
-(label-raccourci-cours-info)=
 
 le *homedir*, c'est une racine tentante pour mettre ses affaires, mais souvent il y a pas
 mal de fourbis dès le départ  
@@ -280,6 +279,7 @@ sur Windows par exemple si vous regardez son contenu
 c'est pourquoi on vous a demandé de créer un dossier `cours-info` dans lequel on va ranger vos différents dossiers:  
 chaque cours dans un repo, puis au besoin un dossier par exercice ou TP ou hackaton, etc...
 
+(label-raccourci-cours-info)=
 je vous recommande de passer 5 minutes pour ajouter ce dossier dans les **raccourcis de votre explorateur de fichiers**  
 de cette façon vous y aurez un accès direct en un clic, comme ceci  
 (ici sur Windows, mais c'est une *feature* disponible sur tous les OS)

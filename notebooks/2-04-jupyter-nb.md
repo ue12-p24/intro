@@ -244,10 +244,10 @@ parlant de déplacer les cellules, on peut le faire à la souris comme ceci
 ## lire le cours localement
 
 maintenant que vous avez cloné le cours, et que vous savez utiliser Jupyter, vous pouvez lire le cours directement sur votre ordi  
-on rappelle  toutes fins utiles qu'il est [nécessaire d'avoir bien configuré jupytext](label-install-extras-python)
+on rappelle  toutes fins utiles qu'il est [nécessaire d'avoir bien configuré jupytext](#label-config-jupytext)
 
 le rendu va être parfois un tout petit peu différent de la version web (HTML statique), mais c'est le même contenu
-(enfin, si vous êtes bien  jour sur votre ordi, [voyez comment bien suivre les éventuelles modifications ultérieures](label-git-pull))
+(enfin, si vous êtes bien  jour sur votre ordi, [voyez comment bien suivre les éventuelles modifications ultérieures](#label-git-pull))
 
 +++
 

@@ -179,10 +179,10 @@ jupyter lab
 ```
 
 à ce stade on se contente de vérifier que cette commande ouvre un onglet dans votre navigateur web  
-vous trouverez [dans ce notebook](label-jupyter) plus de détails sur comment utiliser Jupyter
+vous trouverez [dans ce notebook](#label-jupyter) plus de détails sur comment utiliser Jupyter
 
 +++
 
 ## la checklist
 
-s'agissant de cette introduction, ça peut valoir la peine de consacrer 10 minutes à **visionner une vidéo** qui montre comment tous ces outils s'utilisent en vrai; [vous la trouverez, ainsi qu'une liste de compétences, dans ce notebook](label-checklist)
+s'agissant de cette introduction, ça peut valoir la peine de consacrer 10 minutes à **visionner une vidéo** qui montre comment tous ces outils s'utilisent en vrai; [vous la trouverez, ainsi qu'une liste de compétences, dans ce notebook](#label-checklist)

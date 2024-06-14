@@ -271,7 +271,7 @@ c'est dans ce dossier qu'on vous invite à travailler pendant les cours d'info
   à ce stade vous devez constater que le dossier est bien créé, et qu'il est bien vide
   ```{admonition} on peut créer un raccourci
   c'est important car c'est une opération qu'on **va faire très souvent**;  
-  on verra plus tard comment créer, dans l'explorateur de fichiers, [un raccourci pour pouvoir faire ça rapidement](label-raccourci-cours-info)...
+  on verra plus tard comment créer, dans l'explorateur de fichiers, [un raccourci pour pouvoir faire ça rapidement](#label-raccourci-cours-info)...
   ```
 `````
 
@@ -691,7 +691,6 @@ python is /c/Users/JeanMineur/miniconda3/python
 
 +++
 
-(label-install-extras-python)=
 ## installation des extras Python
 
 c'est-à-dire:
@@ -706,6 +705,7 @@ pour faire en un seul coup toutes les installations dont on aura besoin
 
 par contre cela peut prendre un moment...
 
+  (label-config-jupytext)=
   ```bash
   # c'est avec pip install qu'on installe quasiment tout pour Python
   pip install numpy pandas matplotlib

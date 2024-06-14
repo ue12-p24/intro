@@ -192,7 +192,7 @@ cette précaution étant prise, voici quelques mots sur cette feature:
 
 à ce stade, il y a deux réglages importants pour utiliser le terminal intégré:
 
-* (Windows surtout): choisissez le terminal `bash`, et pour cela [utilisez la palette](label-vscode-palette) et tapez  
+* (Windows surtout): choisissez le terminal `bash`, et pour cela [utilisez la palette](#label-vscode-palette) et tapez  
   *`Terminal: Select Default Profile`*
 
 * assurez-vous aussi de bien utiliser le Python installé avec miniconda, et pour cela:
