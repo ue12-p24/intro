@@ -1,0 +1,14 @@
+version: 1
+
+project:
+  toc:
+    - file: 0-00-presentation-ue12-ue22-nb.md
+    - title: installations
+      children:
+        - pattern: 1-*-nb.md
+    - title: les outils
+      children:
+        - pattern: 2-*-nb.md
+    - title: compléments
+      children:
+        - pattern: 3-*-nb.md
