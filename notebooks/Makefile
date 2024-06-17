@@ -6,6 +6,4 @@ include Makefile.style
 
 include Makefile.norm
 
-include Makefile.toc
-
 include Makefile.book
