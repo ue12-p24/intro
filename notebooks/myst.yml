@@ -2,12 +2,32 @@
 version: 1
 project:
   id: f1e0c90e-7cc8-46a8-938c-bbd63366a353
-  # title:
-  # description:
-  keywords: []
-  authors: []
+  title: UE12 & UE22 - intro
+  # I suspect the intention was maybe to use this for the title tooltip ?
+  # in any case as of now 2024 june the title is used for the tooltip too (a bit silly)
+  # and I can't see where this is used
+  description: "where is this description used?"
+  # this one causes additional buttons to be shown 
+  # in the upper right area (close to the github button)
+  license: CC-BY-NC-SA-4.0
+  # inserted under the title
+  authors:
+    - Thierry Parmentelat
+    - Valérie Roy
   github: https://github.com/ue12-p24/intro
+  keywords:
+    - Informatique
+    - UE12
+    - UE22
+    - Terminal
+    - VSCODE
+    - Markdown
+    - Jupyter
+    - Python
+    - Git
+    - GitHub
   # bibliography: []
+
   toc:
     - file: 0-00-presentation-ue12-ue22-nb.md
     - title: installations
@@ -16,18 +36,22 @@ project:
     - title: les outils
       children:
         - pattern: 2-*-nb.md
-    - title: "compl\xE9ments"
+    - title: compléments
       children:
         - pattern: 3-*-nb.md
 
 site:
   template: book-theme
-  # title:
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
-  nav: []
-  actions:
-    - title: Learn More
-      url: https://mystmd.org/guide
+  # used in the tab name
+  title: ue12-p24-intro
+  # this would be for the horizontal header bar - not used here (yet)
+  # nav: []
+  # actions:
+  #   - title: Learn More
+  #     url: https://mystmd.org/guide
   domains: []
+  options:
+    favicon: media/logo-p24-favicon.svg
+    logo: media/logo-github-orga-p24.drawio.svg
+    # very visible in the header
+    logo_text: "Cours d'info - UE12 & UE22: introduction et installations"
