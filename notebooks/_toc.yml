@@ -1,5 +1,5 @@
 format: jb-book
-root: 0-00-presentation-ue12-ue22
+root: 0-00-presentation-ue12-ue22-nb.md
 parts:
 - caption: installations
   chapters:
