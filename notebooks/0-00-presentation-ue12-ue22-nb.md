@@ -15,6 +15,13 @@ nbhosting:
   title: "pr\xE9sentation des UEs"
 ---
 
+# UE12 et UE22 d'Informatique
+
+Présentation générale des UE12 et UE22  
+Unités d'Enseignement du premier et du second semestre d'Informatique
+
++++
+
 Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
 
 ```{code-cell} ipython3
@@ -24,13 +31,6 @@ Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
 from IPython.display import HTML
 HTML(filename="_static/style.html")
 ```
-
-# UE12 et UE22 d'Informatique
-
-Présentation générale des UE12 et UE22  
-Unités d'Enseignement du premier et du second semestre d'Informatique
-
-+++
 
 ## Nos objectifs
 
