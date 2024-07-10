@@ -30,6 +30,17 @@ HTML(filename="_static/style.html")
 Présentation générale des UE12 et UE22  
 Unités d'Enseignement du premier et du second semestre d'Informatique
 
+````{admonition} pour démarrer
+:class: tip
+
+pour accéder rapidement à cette page, tapez dans votre navigateur
+
+```bash
+https://tinyurl.com/ue12-p24
+```
+
+````
+
 +++
 
 ## Nos objectifs
