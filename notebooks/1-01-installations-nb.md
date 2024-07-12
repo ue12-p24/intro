@@ -127,7 +127,7 @@ suivez les instructions pour votre OS
 
 +++
 
-````{admonition} Windows
+`````{admonition} Windows
 :class: dropdown seealso
 
 en installant ***git for windows*** on va faire d'une
@@ -145,7 +145,38 @@ choisissez au moins l'option recommandée (#2) - on peut prendre l'option (#3) s
 
 ![](media/fig-set-path-git-for-windows.png)
 ```
+
+````{admonition} machine DSI / pas de droit administrateur ?
+:class: smaller dropdown warning
+
+le programme d'installation de *git for windows* est conçu pour installer le programme dans `C:\Program Files`,
+qui peut nécessiter des **droits administrateur**; et malheureusement il ne propose pas de choisir un autre endroit...
+
+aussi, si vous n'arrivez pas à installer *git for windows*, il va vous falloir lancer le programme d'installation "à la main" c'est-à-dire depuis un terminal;
+voici la procédure à suivre dans ce cas:
+
+* lancer un terminal *PowerShell* (on ne peut pas encore utiliser le terminal *bash* naturellement, puisqu'on ne l'a pas encore installé)
+* trouver le nom de votre *homedir*; pour cela tapez
+  ```bash
+  cd
+  pwd
+  ```
+  qui devrait vous répondre quelque chose qui contient votre nom, comme genre
+  ```
+  C:\Users\Jean Mineur
+  ```
+* se déplacer dans le dossier où vous avez téléchargé le programme d'installation (généralement `Downloads`)
+  ```bash
+  cd Downloads
+  ```
+* lancer le programme d'installation en ligne de commande en précisant un dossier d'installation **sous votre homedir**  
+  à affiner selon le nom du fichier que vous avez téléchargé, mais ça ressemble à
+  ```bash
+  .\Git-2.34.1-64-bit.exe /DIR="C:\Users\Jean Mineur\GitForWindows"
+  ```
 ````
+
+`````
 
 +++
 
