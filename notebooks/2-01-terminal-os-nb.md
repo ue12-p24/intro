@@ -429,7 +429,7 @@ pour les curieux qui voudraient comprendre un peu mieux:
 
 +++ {"tags": ["level_intermediate"]}
 
-#### les crochets `[]` (avancé)
+### les crochets `[]` (avancé)
 
 ```bash
 # on peut aussi utiliser les [] 
