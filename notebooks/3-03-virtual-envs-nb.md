@@ -33,7 +33,7 @@ on l'a mentionné un peu plus haut, cela peut être utile de créer plusieurs en
 * si vous travaillez sur plusieurs projets différents, qui ont chacun leur ensemble de
   dépendances, pas forcément compatibles entre elles;
   par exemple, l'un utilise Django-5.x et l'autre Django-3.x
-  ou même, l'un utilise python-3.12 et l'autre python-3.10
+  ou même, l'un utilise python-3.12 et l'autre python-3.11
 
 * ou encore, lors de la sortie d'une nouvelle release de Python, que vous voulez essayer sans tout casser
 
@@ -57,7 +57,7 @@ créer/activer/détruire des environnements multiples; on entend par environneme
 les commandes utiles sont
 
 * `conda env list`
-* `conda create -n mon_environnement python=3.10`
+* `conda create -n mon_environnement python=3.12`
 * `conda env remove -n mon_environnement`
 
 +++
@@ -108,10 +108,10 @@ base                  *  /Users/tparment/miniconda3
 
 +++
 
-### j'en crée un nouveau avec Python-3.10
+### j'en crée un nouveau avec Python-3.12
 
 ```bash
-[base] ~ $ conda create -n demo-py310 python=3.10
+[base] ~ $ conda create -n demo-py312 python=3.12
 Collecting package metadata (current_repodata.json): done
 Solving environment: done
 <snip ...>
@@ -126,7 +126,7 @@ Solving environment: done
 conda environments:
 #
 base                  *  /Users/tparment/miniconda3
-demo-py310                /Users/tparment/miniconda3/envs/demo-py310
+demo-py312                /Users/tparment/miniconda3/envs/demo-py312
 <snip...>
 ```
 
@@ -135,8 +135,8 @@ demo-py310                /Users/tparment/miniconda3/envs/demo-py310
 ### pour entrer dans le nouvel environnement
 
 ```bash
-[base] ~ $ conda activate demo-py310
-[demo-py310] ~ $
+[base] ~ $ conda activate demo-py312
+[demo-py312] ~ $
 ```
 
 +++
@@ -146,7 +146,7 @@ demo-py310                /Users/tparment/miniconda3/envs/demo-py310
 très peu de choses
 
 ```bash
-[demo-py310] ~ $ pip list
+[demo-py312] ~ $ pip list
 Package    Version
 ---------- -------------------
 certifi    2020.4.5.1
@@ -160,7 +160,7 @@ wheel      0.34.2
 ### on y installe ce qu'on veut
 
 ```bash
-[demo-py310] ~ $ pip install numpy==1.15.3
+[demo-py312] ~ $ pip install numpy==1.15.3
 ```
 
 +++
@@ -168,7 +168,7 @@ wheel      0.34.2
 ### la version de python
 
 ```bash
-[demo-py310] ~ $ python --version
+[demo-py312] ~ $ python --version
 Python 3.8.2
 ```
 
@@ -177,7 +177,7 @@ Python 3.8.2
 ### sortir 
 
 ```bash
-[demo-py310] ~ $ conda deactivate
+[demo-py312] ~ $ conda deactivate
 [base] ~ $
 ```
 
@@ -205,9 +205,9 @@ Version: 1.18.1
 ### pour détruire l'environnement en question
 
 ```bash
-[base] ~ $ conda env remove -n demo-py310
+[base] ~ $ conda env remove -n demo-py312
 
-Remove all packages in environment /Users/tparment/miniconda3/envs/demo-py310:
+Remove all packages in environment /Users/tparment/miniconda3/envs/demo-py312:
 ```
 
 +++
