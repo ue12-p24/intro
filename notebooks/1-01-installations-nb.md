@@ -638,7 +638,7 @@ conda 23.5.2
 qui **ne doit pas** vous répondre `command not found`  
 si c'est le cas, c'est que vous n'avez pas bien coché la case  
 *Add Miniconda3 to my PATH environment variable*  
-[dans ce cas voyez ici](l#abel-troubleshoot-python-command-not-found)
+[dans ce cas voyez ici](#label-troubleshoot-python-command-not-found)
 
 ````
 

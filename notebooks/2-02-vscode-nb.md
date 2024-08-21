@@ -100,6 +100,8 @@ montrer des manipulations élémentaires de fenêtres
 
 +++
 
+(label-vscode-palette)=
+
 ### la palette
 
 * de retour dans vs-code, montrer **la palette** :
