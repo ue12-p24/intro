@@ -8,17 +8,11 @@ kernelspec:
   display_name: Python 3 (ipykernel)
   language: python
   name: python3
-language_info:
-  name: python
-  nbconvert_exporter: python
-  pygments_lexer: ipython3
-nbhosting:
-  title: troubleshooting
 ---
 
 Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
 
-```{code-cell} ipython3
+```{code-cell}
 %%python
 from IPython.display import HTML
 HTML(filename="_static/style.html")
@@ -38,7 +32,7 @@ dans tous les cas, essayez d'abord de trouver par vous même avant de demander d
 
 (label-troubleshoot-code-command-not-found)=
 
-+++ {"tags": []}
++++
 
 ````{admonition} symptôme
 :class: error

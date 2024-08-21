@@ -8,15 +8,11 @@ kernelspec:
   display_name: Python 3 (ipykernel)
   language: python
   name: python3
-language_info:
-  name: python
-  nbconvert_exporter: python
-  pygments_lexer: ipython3
 ---
 
 Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
 
-```{code-cell} ipython3
+```{code-cell}
 %%python
 from IPython.display import HTML
 HTML(filename="_static/style.html")
@@ -43,7 +39,7 @@ la vidéo a été tournée en 2022 et certaines petites choses ont changé depui
 * bien sûr il faut remplacer les noms comme `ue12-p22` en `ue12-p24`, comme vous allez le deviner
 ````
 
-```{code-cell} ipython3
+```{code-cell}
 ---
 slideshow:
   slide_type: ''
@@ -223,7 +219,7 @@ applications :
 * la circonférence du globe mesure 40.000 km
 * une mile nautique = 1' de latitude
 
-```{code-cell} ipython3
+```{code-cell}
 # la longueur d'un mile nautique en km, du coup
 10_000 / (60 * 90)
 ```

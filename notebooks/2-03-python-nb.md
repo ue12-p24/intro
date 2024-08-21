@@ -8,13 +8,6 @@ kernelspec:
   display_name: Calysto Bash
   language: bash
   name: calysto_bash
-language_info:
-  help_links:
-  - text: MetaKernel Magics
-    url: https://metakernel.readthedocs.io/en/latest/source/README.html
-  name: bash
-nbhosting:
-  title: vs-code et Python
 ---
 
 Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
@@ -98,7 +91,7 @@ mais dans tous les cas **commencez par *RTFEM***
 ça va de soi mais ça va mieux en le disant, je suis certain qu'on aura l'occasion de le
 rappeler pendant les cours de langage :)
 
-+++ {"tags": []}
++++
 
 ## Python et vs-code
 
@@ -167,7 +160,7 @@ erreurs de programmation n'a **qu'une valeur indicative**
 donc il faut garder votre cerveau en marche, et **ne pas se fier aveuglément** à cette information
 ````
 
-+++ {"tags": []}
++++
 
 ### terminal intégré
 
@@ -186,7 +179,7 @@ aussi **si vous rencontrez des soucis** avec ce mode d'utilisation, préférez r
 
 cette précaution étant prise, voici quelques mots sur cette feature:
 
-+++ {"tags": []}
++++
 
 `````{admonition} réglages importants
 
@@ -210,7 +203,7 @@ par projet; une partie optionnelle avancée sera consacrée à ce sujet un peu p
 ````
 `````
 
-+++ {"tags": []}
++++
 
 pour essayer, une fois ceci mis en place:
 

@@ -8,13 +8,6 @@ kernelspec:
   display_name: Calysto Bash
   language: bash
   name: calysto_bash
-language_info:
-  help_links:
-  - text: MetaKernel Magics
-    url: https://metakernel.readthedocs.io/en/latest/source/README.html
-  name: bash
-nbhosting:
-  title: vs-code et Python
 ---
 
 Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
@@ -122,7 +115,7 @@ pour plus de détails, voir aussi <https://code.visualstudio.com/docs/getstarted
 refaire les manipulations vous-mêmes
 ````
 
-+++ {"tags": []}
++++
 
 ````{admonition} ouvrir un dossier plutôt qu'un fichier
 :class: note
@@ -324,7 +317,7 @@ $$
 \sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}
 ```
 
-+++ {"tags": []}
++++
 
 ```{admonition} pour aller plus loin
 :class: dropdown

@@ -7,17 +7,11 @@ kernelspec:
   display_name: Python 3 (ipykernel)
   language: python
   name: python3
-language_info:
-  name: python
-  nbconvert_exporter: python
-  pygments_lexer: ipython3
-nbhosting:
-  title: installations
 ---
 
 Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
 
-```{code-cell} ipython3
+```{code-cell}
 :tags: [raises-exception]
 
 %%python

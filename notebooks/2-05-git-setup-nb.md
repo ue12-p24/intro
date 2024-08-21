@@ -8,13 +8,6 @@ kernelspec:
   display_name: Calysto Bash
   language: bash
   name: calysto_bash
-language_info:
-  help_links:
-  - text: MetaKernel Magics
-    url: https://metakernel.readthedocs.io/en/latest/source/README.html
-  name: bash
-nbhosting:
-  title: git & setup
 ---
 
 Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
@@ -93,7 +86,7 @@ utilisez votre compte github pour:
 - en visitant votre propre page, constatez que vous avez maintenant un dépôt qui s'appelle `intro` dans votre propre espace *github*  
 ````
 
-+++ {"tags": []}
++++
 
 ## la config, comment ça marche ? 
 
@@ -105,7 +98,7 @@ utilisez votre compte github pour:
 il y a une commande `git config` qui permet d'inspecter la configuration  
 par défaut on regarde ou change la première famille, mais avec l'option `--global` on regarde la seconde
 
-+++ {"tags": []}
++++
 
 ### lire / vérifier un réglage
 
@@ -126,7 +119,7 @@ et surtout pour vérifier la valeur d'**un** réglage, par exemple
 git config user.name
 ```
 
-+++ {"tags": []}
++++
 
 ### écrire / changer un réglage
 
@@ -147,7 +140,7 @@ et c'est pourquoi il faut mettre les `"` autour de `Jean Mineur` comme ceci
 git config --global user.name "Jean Mineur"  # ok maintenant
 ```
 
-+++ {"tags": []}
++++
 
 ### dans quels fichiers
 

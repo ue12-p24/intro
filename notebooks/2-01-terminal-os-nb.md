@@ -8,13 +8,6 @@ kernelspec:
   display_name: Calysto Bash
   language: bash
   name: calysto_bash
-language_info:
-  help_links:
-  - text: MetaKernel Magics
-    url: https://metakernel.readthedocs.io/en/latest/source/README.html
-  name: bash
-nbhosting:
-  title: OS & terminal
 ---
 
 Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
