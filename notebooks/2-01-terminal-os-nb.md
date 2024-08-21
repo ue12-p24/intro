@@ -1,6 +1,5 @@
 ---
 jupytext:
-  encoding: '# -*- coding: utf-8 -*-'
   text_representation:
     extension: .md
     format_name: myst
@@ -34,7 +33,7 @@ un terminal qu'est-ce que c'est ?
 ça peut paraitre moins pratique que de cliquer sur les icones du bureau... **mais** en fait c'est **beaucoup plus puissant** !
 
 * d'abord c'est un peu comme un langage de programmation, on peut faire **en une ligne** ce qui prendrait **des heures avec un cliquodrome** !
-* et aussi on va pouvoir **passer des paramètres** aux programmes - [voir par exemple avec vs-code](label-vscode-parameter)
+* et aussi on va pouvoir **passer des paramètres** aux programmes - [voir par exemple avec vs-code](#label-vscode-parameter)
 * enfin c'est de cette manière qu'on accède à des ressources distantes (cloud, cluster de calcul, ...)
 
 +++
@@ -115,7 +114,7 @@ pwd
 ### une petite session
 
 commençons par une petite promenade dans le contenu de ce cours  
-je suppose que vous l'avez déjà cloné, [sinon retournez à cette section pour le faire](label-clone-course)
+je suppose que vous l'avez déjà cloné, [sinon retournez à cette section pour le faire](#label-clone-course)
 
 je vous invite à expérimenter tout ceci dans votre propre terminal (et sans taper les `$ ` évidemment) :
 

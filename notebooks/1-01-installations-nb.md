@@ -369,7 +369,7 @@ si on ne le fait pas, ça semble fonctionner, mais on a des tas de problèmes as
   code: command not found
   ```
   d'abord vérifiez que vous avez bien essayé **dans un nouveau terminal** (oui je sais...)  
-  et sinon [allez voir cette page](label-troubleshoot-code-command-not-found)
+  et sinon [allez voir cette page](#label-troubleshoot-code-command-not-found)
   ````
 
 * lorsque ça fonctionne, prenez l'habitude de lancer vs-code comme ceci
@@ -509,7 +509,7 @@ et vous prenez les options par défaut lorsqu'on vous pose une question
 ````{admonition} pas coché la case ?
 :class: dropdown 
 
-si par mégarde vous êtes allé jusqu'au bout sans cocher cette case, [voyez cette page](label-troubleshoot-python-command-not-found)
+si par mégarde vous êtes allé jusqu'au bout sans cocher cette case, [voyez cette page](#label-troubleshoot-python-command-not-found)
 ````
 `````
 ``````
@@ -638,7 +638,7 @@ conda 23.5.2
 qui **ne doit pas** vous répondre `command not found`  
 si c'est le cas, c'est que vous n'avez pas bien coché la case  
 *Add Miniconda3 to my PATH environment variable*  
-[dans ce cas voyez ici](label-troubleshoot-python-command-not-found)
+[dans ce cas voyez ici](l#abel-troubleshoot-python-command-not-found)
 
 ````
 
@@ -971,7 +971,7 @@ vous pouvez utiliser par exemple `Control-W` (ou Command-W sur mac); ou encore u
 ````{admonition} command not found ?
 :class: note dropdown
   
-pour que ça fonctionne, il faut bien sûr que la commande `code` soit bien installée dans votre PATH; si vous avez `command not found` quand vous tapez `code .` dans votre terminal, [reportez-vous à la section sur ce problème](label-troubleshoot-code-command-not-found)
+pour que ça fonctionne, il faut bien sûr que la commande `code` soit bien installée dans votre PATH; si vous avez `command not found` quand vous tapez `code .` dans votre terminal, [reportez-vous à la section sur ce problème](#label-troubleshoot-code-command-not-found)
 ````
 ``````
 

@@ -43,7 +43,7 @@ HTML(filename="_static/style.html")
 * quand on fait une recherche, on recherche dans (tous les fichiers de) tout le dossier
 * et aussi, d'une fois sur l'autre, on retrouve les fichiers qu'on avait consultés la fois précédente, 
 
-c'est pourquoi on lance *vs-code* en tapant `code .` - et ici le `.` signifie "le dossier courant", [comme on l'a vu ici, rappelez-vous](label-bash-dot)
+c'est pourquoi on lance *vs-code* en tapant `code .` - et ici le `.` signifie "le dossier courant", [comme on l'a vu ici, rappelez-vous](#label-bash-dot)
 ````
 
 ````{admonition} *keyboard modifiers* (Control et Command)
