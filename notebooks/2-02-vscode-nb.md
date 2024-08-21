@@ -36,7 +36,7 @@ HTML(filename="_static/style.html")
 (label-vscode-parameter)=
 
 ````{admonition} un exemple de passage de paramètre
-:class:
+:class: tip
 
 *vs-code* est un éditeur qui travaille **sur un dossier**; comme ça:
 
