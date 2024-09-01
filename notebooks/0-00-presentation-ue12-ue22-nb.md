@@ -36,24 +36,6 @@ https://tinyurl.com/ue12-p24
 
 +++
 
-# UE12 et UE22 d'Informatique
-
-Présentation générale des UE12 et UE22  
-Unités d'Enseignement du premier et du second semestre d'Informatique
-
-````{admonition} pour démarrer
-:class: tip
-
-pour accéder rapidement à cette page, tapez dans votre navigateur
-
-```bash
-https://tinyurl.com/ue12-p24
-```
-
-````
-
-+++
-
 *la petite introduction sur les enseignements lors de la pré-rentrée*
 
 +++
@@ -78,9 +60,9 @@ rappel ***votre présence est obligatoire à toutes les séances d'informatique*
 
 +++
 
-### au premier semestre
+### au premier semestre `UE12`
 
-les deux modules de l'Unité d'Enseignement `UE12`
+les deux modules:
 
 ----------
 
@@ -113,6 +95,24 @@ les deux modules de l'Unité d'Enseignement `UE12`
 +++
 
 *la description plus complète des enseignements*
+
++++
+
+# UE12 et UE22 d'Informatique
+
+Présentation générale des UE12 et UE22  
+Unités d'Enseignement du premier et du second semestre d'Informatique
+
+````{admonition} pour démarrer
+:class: tip
+
+pour accéder rapidement à cette page, tapez dans votre navigateur
+
+```bash
+https://tinyurl.com/ue12-p24
+```
+
+````
 
 +++
 
