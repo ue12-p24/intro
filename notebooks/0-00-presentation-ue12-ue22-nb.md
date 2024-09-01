@@ -76,7 +76,7 @@ les deux modules:
 2. un module d'**apprentissage de la programmation** (**1 langage** au choix parmi 3)
    * `Python` approfondissements du langage
    * `C++` découverte d'un langage de haut niveau compilé (et proche de la mémoire)
-   * `Julia` découverte d'un langage de haute performance, dédié au numérique  
+   * `Julia` découverte d'un langage de haute performance, spécialisé en calcul scientifique  
     *nouveau cette année*
   * 9 séances (1 langage)  
   * une journée de hackathon (coder en équipe)
@@ -222,7 +222,7 @@ en cas de **dificulté**: compréhension, charge de travail, rapidité des cours
   
 * - Julia
   - 9
-  - découverte d'un langage de haut niveau, dédié au numérique, de haute performance
+  - découverte d'un langage de haute performance, spécialisé en calcul scientifique
 
 * - hackaton-AP (pour tous)
   - 2
@@ -351,10 +351,10 @@ vous prendrez un de ces langages au choix
 
 #### <span style="color:blue">Julia</span>
 
-- langage de haute performance
-- dédié au numérique
-- plus difficile d'accès que <span style="color:blue">Python</span>
-- réservé aux élèves déjà *avancés en informatique*
+- langage moderne, de haute performance
+- généraliste mais spécialisé dans le calcul scientifique
+- prototypage rapide
+- cours plus exigeant que celui de <span style="color:blue">Python</span>
 
 +++
 
