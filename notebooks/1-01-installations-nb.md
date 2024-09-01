@@ -274,13 +274,13 @@ c'est dans ce dossier qu'on vous invite à travailler pendant les cours d'info
   ```
   ```{admonition} à quoi ça sert ?
   :class: note dropdown
-  
+
   sur mac et linux, c'est optionnel car le terminal démarre justement dans le homedir; c'est le comportement normal  
   par contre selon les configurations sur Windows, il peut être nécessaire de prendre l'habitude de faire un premier `cd` au début du terminal, car dans certains setups le terminal démarre dans un autre dossier...
   ```
   ````
 
-* **créez un dosser `cours-info`**
+* **créez un dossier `cours-info`**
   ```bash
   mkdir cours-info
   ```
