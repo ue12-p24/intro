@@ -374,7 +374,7 @@ vous prendrez un de ces langages au choix
 * - GIT
   - <https://ue12-p24-git.readthedocs.io/>
 * - Python avancé
-  - <https://flotpython-slides.readthedocs.io>
+  - <https://flotpython-slides.readthedocs.io/>
 * - C++
   - <https://cpp.bmarchand.fr/>
 ```
