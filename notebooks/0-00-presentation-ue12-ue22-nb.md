@@ -7,17 +7,34 @@ kernelspec:
   display_name: Python 3 (ipykernel)
   language: python
   name: python3
+language_info:
+  name: python
+  nbconvert_exporter: python
+  pygments_lexer: ipython3
 ---
 
 Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
 
-```{code-cell}
+```{code-cell} ipython3
 :tags: [raises-exception]
 
 %%python
 from IPython.display import HTML
 HTML(filename="_static/style.html")
 ```
+
+````{admonition} pour démarrer
+:class: tip
+
+pour accéder rapidement à cette page, tapez dans votre navigateur
+
+```bash
+https://tinyurl.com/ue12-p24
+```
+
+````
+
++++
 
 # UE12 et UE22 d'Informatique
 
@@ -34,6 +51,68 @@ https://tinyurl.com/ue12-p24
 ```
 
 ````
+
++++
+
+*la petite introduction sur les enseignements lors de la pré-rentrée*
+
++++
+
+# L'enseignement de l'informatique en première année
+
+- **deux modules** d'enseignement par semestre
+- un module comporte **9 séances** de cours
+- chaque séance dure **3 heures**  
+
+$\Rightarrow$ ce qui correspond à "*moins de 4 semaines temps plein*" dédiées aux cours d'informatique  
+
+chaque module a **sa thématique** (numérique, programmation, web-réseau, projets)
+
+pour couvrir une toute petite partie ***d'un domaine extrêmement vaste***  
+***indispensable à tout le monde, quelle que soit votre orientation professionnelle future***
+
+il est impossible de progresser sans une **implication personnelle en dehors des séances de cours**  
+***$\Rightarrow$  il faut travailler entre les séances !***
+
+rappel ***votre présence est obligatoire à toutes les séances d'informatique***
+
++++
+
+### au premier semestre
+
+les deux modules de l'Unité d'Enseignement `UE12`
+
+----------
+
+1. un module **python-numérique** comprenant
+   * 5 séances sur `numpy` (librairie numérique), `pandas` (traitement de données) et `matplotlib` (visualisation)  
+   * 2 séances sur la gestion de version de fichiers avec `git` et `github`  
+   * 1 séance de hackathon de code en équipe
+
+----------   
+
+2. un module d'**apprentissage de la programmation** (**3 langages** au choix)
+   * `Python` approfondissements du langage
+   * `C++` découverte d'un langage de haut niveau compilé (et proche de la mémoire)
+   * `Julia` découverte d'un langage de haute performance, dédié au numérique  
+    *nouveau cette année*
+  * 9 séances par langage  
+  * une journée de **hackathon**
+
++++
+
+### au second semestre `UE22`
+
+- un module sur le `Web` et les réseaux
+- un module pour les projets informatique
+
+----------
+
+***maintenant nous allons procéder aux installations de vos portables***
+
++++
+
+*la description plus complète des enseignements*
 
 +++
 
@@ -138,7 +217,12 @@ en cas de **dificulté**: compréhension, charge de travail, rapidité des cours
 
 * - c++
   - 9
-  - découverte d'un langage compilé de haut niveau
+  - découverte d'un langage de haut niveau et compilé
+
+  
+* - Julia
+  - 9
+  - découverte d'un langage de haut niveau, dédié au numérique, de haute performance
 
 * - hackaton-AP (pour tous)
   - 2
@@ -245,7 +329,7 @@ des mini-projets de programmation (notés et **personnels**)
 
 +++
 
-## Les 2 langages <span style="color:blue">Python</span> et <span style="color:blue">C++</span>
+## Les 3 langages <span style="color:blue">Python</span>, <span style="color:blue">C++</span> et <span style="color:blue">Julia</span>
 
 vous prendrez un de ces langages au choix
 > un formulaire vous sera envoyé pour le choix du langage
@@ -264,6 +348,13 @@ vous prendrez un de ces langages au choix
 - de belles constructions (templates)
 - logiciels scientifiques, OS, BdD, moteurs de rendus, logiciels de
   micro-contrôleurs (tout ce qui doit aller vite)
+
+#### <span style="color:blue">Julia</span>
+
+- langage de haute performance
+- dédié au numérique
+- plus difficile d'accès que <span style="color:blue">Python</span>
+- réservé aux élèves déjà *avancés en informatique*
 
 +++
 
