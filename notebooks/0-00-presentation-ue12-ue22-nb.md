@@ -29,7 +29,7 @@ HTML(filename="_static/style.html")
 pour accéder rapidement à cette page, tapez dans votre navigateur
 
 ```bash
-https://tinyurl.com/ue12-p24
+https://ue12-p24-intro.rtfd.io/
 ```
 
 ````
@@ -109,7 +109,7 @@ Unités d'Enseignement du premier et du second semestre d'Informatique
 pour accéder rapidement à cette page, tapez dans votre navigateur
 
 ```bash
-https://tinyurl.com/ue12-p24
+https://ue12-p24-intro.rtfd.io/
 ```
 
 ````
