@@ -174,7 +174,7 @@ voici la procédure à suivre dans ce cas:
 
 +++
 
-````{admonition} Mac et Linux
+`````{admonition} Mac et Linux
 :class: dropdown seealso
 
 sur ces deux OS, `bash` est **préinstallé**  
@@ -183,7 +183,15 @@ pour installer `git`, utilisez ce lien:
 
 * rien de particulier à signaler sur linux, c'est sans doute déjà installé, et sinon c'est trivial
 * par contre pour les Mac: **attention ça peut être long !!** la méthode recommandée passe par l'activation de Xcode, un peu de patience sera nécessaire..
-````
+  ````{admonition} Mac & Xcode
+  :class: dropdown tip
+  si vous optez pour la méthode "XCode", on vous dit de taper `git --version` pour déclencher l'installation de XCode; si cela vous affiche seulement un message d'erreur, vous pouvez aussi lancer l'installation de XCode directement depuis le terminal avec la commande suivante:
+
+  ``` bash
+  xcode-select --install
+  ```
+  ````
+`````
 
 +++
 
