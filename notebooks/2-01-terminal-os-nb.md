@@ -362,10 +362,12 @@ voici un résumé sur quelques commandes `bash`, parmi les plus simples et les p
 
 | commande | fonction |
 |-:|:-|
-| `cd` | changer de dossier courant |
+| `cd elsewhere` | changer de dossier courant |
 | `pwd` | afficher le dossier courant |
 | `ls` | lister les fichiers et dossiers dans le dossier courant |
-| `mkdir` | créer un dossier |
+| `ls elsewhere` | lister les fichiers et dossiers dans un autre dossier |
+| `ls fi les` | lister les fichiers `fi` et `les` |
+| `mkdir newfolder` | créer un dossier |
 | `rm` | supprimer des fichiers - **attention** ils sont supprimés pour de bon et non pas placés dans la corbeillle |
 | `mv oldname newname` | pour renommer un fichier (ou un dossier) |
 | `echo un message` | pour afficher du texte |
