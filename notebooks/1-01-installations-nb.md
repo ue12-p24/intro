@@ -37,13 +37,16 @@ il nous faut a minima
 * le **terminal** - nous utilisons **`bash`**, qui est
   * natif sur les OS linux et MacOS,
   * et qui vient avec le produit `git for windows`
-* l'**éditeur de code** Visual Studio Code, mieux connu comme vs-code
-* **miniconda** pour **Python** (et les environnements virtuels)
+* l'éditeur de code **Visual Studio Code**, mieux connu comme VS-code
+* **miniconda** pour Python (et les environnements virtuels)
 * **Jupyter** pour les notebooks
   * on parlera un peu de *markdown* pour la mise en forme du texte,
   * et de $\LaTeX$ pour les formules mathématiques
-* et enfin **Git** pour la gestion de versions  
-  c'est un outil super-utile pour le développement, c'est indispensable que vous sachiez l'utiliser
+* **Git** pour la gestion de versions  
+  * c'est un outil super-utile pour le développement, c'est indispensable que vous sachiez l'utiliser  
+* enfin on configurera également un compte sur **github.com**
+  * pour le stockage de vos travaux - typiquement les rendus
+  * et le travail en groupe - typiquement les hackatons et projets
 ````
 
 +++
