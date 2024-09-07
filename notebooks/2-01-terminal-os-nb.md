@@ -367,16 +367,17 @@ voici un résumé sur quelques commandes `bash`, parmi les plus simples et les p
 
 | commande | fonction |
 |-:|:-|
+| `cd` | aller dans le *homedir* |
 | `cd elsewhere` | changer de dossier courant |
 | `pwd` | afficher le dossier courant |
 | `ls` | lister les fichiers et dossiers dans le dossier courant |
 | `ls elsewhere` | lister les fichiers et dossiers dans un autre dossier |
 | `ls fi les` | lister les fichiers `fi` et `les` |
 | `mkdir newfolder` | créer un dossier |
-| `rm` | supprimer des fichiers - **attention** ils sont supprimés pour de bon et non pas placés dans la corbeillle |
+| `rm oldfile` | supprimer un (ou des) fichier(s) - **attention** ils sont supprimés pour de bon et non pas placés dans la corbeille |
 | `mv oldname newname` | pour renommer un fichier (ou un dossier) |
-| `echo un message` | pour afficher du texte |
-| `cat unfichier` | pour afficher le contenu d'un (ou plusieurs) fichier |
+| `echo a message` | pour afficher du texte |
+| `cat somefile` | pour afficher le contenu d'un (ou plusieurs) fichier(s) |
 
 +++
 
