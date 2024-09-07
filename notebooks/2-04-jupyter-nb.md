@@ -174,7 +174,7 @@ autant prendre rapidement l'habitude d'utiliser les raccourcis clavier - ça va 
 parmi les plus fréquemment utilisés, il y a :
 
 * `Shift-Entrée`: pour évaluer la cellule courante et passer à la suivante
-* `⌥-Entrée`: pour évaluer la cellule et en insérer une dessous`
+* `⌥-Entrée`: pour évaluer la cellule et en insérer une dessous
 * `Control-M M` pour passer la cellule courante en `Markdown`
 * `Control-M Y` pour passer la cellule courante en `Code` (y comme pYthon)
 

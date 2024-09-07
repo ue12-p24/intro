@@ -67,15 +67,15 @@ vous en connaissez déjà plein d'exemples, comme
 
 à l'intérieur du serveur github, les URLs des dépôts ressemblent toutes à celles-ci
 
-<https://github.com/python/cpython>  
-<https://github.com/gvanrossum/cpython>
+* `https://github.com/python/cpython`: <https://github.com/python/cpython>
+* `https://github.com/gvanrossum/cpython`: <https://github.com/gvanrossum/cpython> 
 
 et de manière générale:
 
-* le premier étage (`python` ou `gvanrossum`) désigne une **organisation** ou un **individu**
+* le premier "étage" (`python` ou `gvanrossum`) désigne une **organisation** ou un **individu**
   pour vos dépots par exemple, ce sera votre identifiant (on dit aussi *slug*) github
 
-* le second étage (`cpython`) désigne un dépôt  
+* le second "étage" (`cpython`) désigne un dépôt  
   (ici par exemple `cpython` pour l'implémentation classique du langage Python)
 
 ````{admonition} exercice
