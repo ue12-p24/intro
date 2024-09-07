@@ -7,6 +7,11 @@ kernelspec:
   display_name: Calysto Bash
   language: bash
   name: calysto_bash
+language_info:
+  help_links:
+  - text: MetaKernel Magics
+    url: https://metakernel.readthedocs.io/en/latest/source/README.html
+  name: bash
 ---
 
 Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
@@ -519,6 +524,35 @@ et plein d'autres choses utiles, très rapidement:
 
 +++
 
+### les paramètres 
+
+chaque commande est libre d'interpréter les paramètres comme elle veut; par exemple  
+* avec la commande `cat` les paramètres sont tous interprétés comme des noms de fichiers
+* par contre avec `git`, le premier paramètre doit être le nom d'une (sous-)commande `git` - comme par exemple `clone` ou `pull` - et les autres paramètres sont à leur tour interprétés en fonction, justement, de la sous-commande...
+
++++
+
+### les options
+
+quasiment toujours, la commande va accepter des paramètres qui sont optionnels, et qui permettent de modifier légèrement le comportement  
+on en a vu déjà plusieurs, e.g.
+
+* `ls [-l|-F]` pour choisir un mode de présentation
+* `python --version`
+
+le plus souvent également:
+
+* les options commencent par `-` ou `--`
+* elles apparaissent généralement **avant** les "vrais" paramètres
+* la tradition veut qu'une même option est souvent disponible sous les deux formes
+  * `-` pour l'option courte
+  * `--` pour l'option longue
+* ainsi par exemple c'est équivalent de faire
+  * `python --version`
+  * `python -V`
+
++++
+
 ## c'est quoi l'OS ?
 
 partie optionnelle
@@ -637,7 +671,7 @@ c'est-à-dire techniquement :
     les applications utilisent "gratuitement" les protocoles réseau - comme TCP/IP  
     qui sont en fait implémentés dans le noyau
 
-  * périphériques exotiques  
+  * **périphériques exotiques**  
     les constructeurs de composants - comme par ex. une carte vidéo ou une carte son - fournissent ce qu'on appelle un *driver*
     (qui est intègré au noyau) pour exposer aux applications une interface indépendante du matériel
 ````
