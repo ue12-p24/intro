@@ -61,7 +61,10 @@ bien souvent (mais pas toujours) si le raccourci sur Windows est **`⌃-X`** alo
 
 ### manipulations simples
 
-montrer comment
+pour plus de détails, voir aussi <https://code.visualstudio.com/docs/getstarted/userinterface>
+
+
+on va montrer comment
 
 * afficher/cacher l'explorateur de fichiers
 * créer un nouveau fichier **`⌃-N`** (sur MacOS: **`⌘-N`**)
@@ -73,6 +76,13 @@ montrer comment
 
 * observer le contenu des fichiers depuis le terminal avec `cat`
 * montrer comment se manifeste la fin de ligne
+
+````{admonition} ouvrit avec simple-clic ou double-clic
+:class: dropdown
+
+essayez d'ouvrir un fichier (pas encore ouvert) depuis l'explorateur avec un simple ou un double clic  
+il y a une différence subtile, pour la voir ouvrez-en plusieurs...
+````
 
 +++
 
@@ -87,16 +97,12 @@ montrer des manipulations élémentaires de fenêtres
 
 ### extensions
 
-* chercher une extension  (prétexte : l'extension 'Markdown All in One' et/ou Python)
+* chercher une extension
 * installer/désinstaller
 * activer/désactiver une nouvelle extension
-
-+++
-
-### basculer entre les applications
-
-* passer d'une application à une autre avec `⌥ ⇥` (Alt-Tab)
-* typiquement pour basculer entre vscode et terminal
+* **à faire**: installer les extensions
+  * `Python` (de Microsoft)
+  * `Jupyter` (de Microsoft aussi)
 
 +++
 
@@ -107,17 +113,26 @@ montrer des manipulations élémentaires de fenêtres
 * de retour dans vs-code, montrer **la palette** :
   * `⇧ ⌘ P` Shift-Command-P (mac)
   * `⇧ ⌃ P` Shift-Control-P (windows)
+* chercher une commande, par exemple `Format Document`
 
 +++
 
-pour plus de détails, voir aussi <https://code.visualstudio.com/docs/getstarted/userinterface>
+### basculer entre les applications
 
-````{admonition} exercice
+* passer d'une application à une autre avec `⌥ ⇥` (Alt-Tab)
+* typiquement pour basculer entre vscode et terminal
 
-refaire les manipulations vous-mêmes
++++
+
+### conseils
+
+````{admonition} exécuter dans vs-code: pas recommandé !
+:class: warning 
+
+vs-code contient plein de fonctionnalités et notamment pour exécuter le code *directement dans vs-code* - 
+c'est-à-dire sans retourner dans le terminal  
+il faut **vous prévenir** que ces *features* sont notoirement **dures à configurer proprement**, aussi si vous rencontrez le moindre souci n'hésitez pas à **toujours utiliser le terminal natif** - en utilisant justement l'astuce juste ci-dessus pour gagner du temps dans ces aller-retours permanents
 ````
-
-+++
 
 ````{admonition} ouvrir un dossier plutôt qu'un fichier
 :class: note
@@ -134,6 +149,11 @@ pour cela, vous pouvez soit
 
 * taper `code .` dans le terminal comme on l'a vu (et ici le `.` correspond au dossier courant)
 * ou utiliser le clic droit depuis l'explorateur Windows, mais sur le dossier lui-même et non le fichier
+````
+
+````{admonition} vs-code et git
+:class: tip
+enfin pour bien utiliser vs-code avec git, [voyez cette section dans le notebook d'installation](label-vscode-for-commit)
 ````
 
 +++

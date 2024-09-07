@@ -932,6 +932,7 @@ pour commencer vous devez configurer git pour qu'il connaisse votre identité, c
 
 +++
 
+(label-vscode-for-commit)=
 ``````{admonition} les autres réglages
 :class: seealso`
 
