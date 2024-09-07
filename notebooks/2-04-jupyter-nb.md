@@ -45,6 +45,10 @@ et de cette façon, vous aurez déjà toutes les librairies utilisées à l'int�
 
 ## utilisation de base
 
++++
+
+### lancer JupyterLab
+
 pour lancer un serveur jupyter vous tapez dans le terminal la commande
 
 ```bash
@@ -90,6 +94,15 @@ du coup ça signifie que **le serveur Jupyter doit tourner en permanence**
 
 * si vous le tuez depuis le terminal, le notebook dans le browser va cesser de fonctionner
 * ça signifie aussi que cette session du terminal n'est plus utilisable pour autre chose…
+
++++
+
+### pour terminer la session
+
+pour éviter les soucis, prenez l'habitude de **sortir de Jupyter par le menu** *File* → *Shut Down*  
+
+de cette façon le processus server est proprement terminé  
+car notamment sur Windows, lorsqu'on essaie de terminer "sauvagement" le processus serveur il arrive que cela "coince" le Git Bash...
 
 +++
 
