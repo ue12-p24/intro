@@ -142,16 +142,45 @@ $$
 
 +++
 
-pour générer cet ensemble on considère
+pour générer (au moins en partie) cet ensemble on considère
 
 * d'abord l'ensemble des complexes à parties réelles et imaginaires entières
 $C_{\mathbb{N}} = \{z = n + im \;/\; (n, m) \in \mathbb{Z}^2\}$
 
 * puis l'ensemble de leurs carrés $C_{\mathbb{N}}^2 = \{z^2, z\in C_{\mathbb{N}} \}$
 
-vous vous convaincrez facilement - ce n'est pas du tout notre sujet ici - que cette
+vous vous convaincrez facilement - dépliez la bulle suivante si nécessaire - que cette
 méthode permet d'énumérer des triplets pythagoriciens… (mais regardez la vidéo youtube
 citée plus haut si vous voulez en savoir plus)
+
++++
+
+````{admonition} les détails sordides
+:class: dropdown
+
+$$
+\mbox{soit}\ (n, m) \in \mathbb{Z}^2 \\
+\mbox{on pose}\ z = n + im \in \mathbb{C}\\
+$$
+
+on note $a$ et $b$ les parties réelles et imaginaires de $z^2$
+
+$$
+a = re(z^2) = n^2 - m^2 \\
+b = im(z^2) = 2nm
+$$
+
+on vérifie facilement que $(a, b, c=n^2+m^2)$ est un triplet pythagoricien (i.e. $a^2+b^2=c^2$)
+
+$$
+a^2 + b^2 \\
+= (n^2-m^2)^2 + 4n^2m^2 \\
+= n^4 + m^4 -2n^2m^2 + 4n^2m^2 \\
+= n^4 + m^4 +2n^2m^2 \\
+= (n^2+m^2)^2 \\
+= c^2
+$$
+````
 
 +++
 
@@ -215,6 +244,7 @@ len(pythagore(7))
 
 ```{code-cell} ipython3
 # affichons ce qu'on a trouvé
+
 for a, b in sorted(pythagore(7)):
     # en Python pour calculer x au carré
     # on peut - par exemple - écrire x**2

@@ -34,11 +34,19 @@
 # # installation
 
 # %% [markdown]
-# comme toujours on installe ça avec
+# on l'a **déjà fait pendant les installations**, mais:
 #
-# ```
-# pip install jupytext
-# ```
+# ````{admonition} pour mémoire
+# :class: dropdown
+# - comme toujours on installe ça avec 
+#   ```bash
+#   pip install jupytext
+#   ```
+# - et aussi, pas indispensable, mais plus pratique (un peu plus bas, on explique à quoi ça sert)
+#   ```bash
+#   jupytext-config set-default-viewer
+#   ```
+# ````
 
 # %%
 print("je suis un notebook en jupytext")
@@ -46,7 +54,19 @@ print("je suis un notebook en jupytext")
 # %% [markdown]
 # **exercice 1**
 #
-# ouvrez ce notebook dans jupyter; il doit apparaitre comme un notebook, et non pas comme un simple fichier .py
+# ouvrez ce notebook dans jupyter lab; il doit apparaitre comme un notebook, et non pas comme un simple fichier `.py`
+#
+# ```{admonition} plusieurs façons
+# :class: dropdown
+#
+# pour ouvrir un fichier dans jlab:
+# * à partir de l'outil *file browser* (en haut à gauche)
+# * vous pouvez soit:
+#   * faire un click droit → *Open With* → *Notebook*
+#     si vous avez installé `jupytext`, cette méthode marche toujours  
+#   * ou, plus rapide, double-cliquer le fichier  
+#     mais pour que cela fonctionne, il vous avoir fait le `jupytext-config ...` 
+# ```
 
 # %% [markdown]
 # **exercice 2**
