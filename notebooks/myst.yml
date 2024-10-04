@@ -26,7 +26,7 @@ project:
     - Python
     - Git
     - GitHub
-  date: 2024 June
+  date: 2024-06-01
   # bibliography: []
 
 site:
