@@ -159,7 +159,7 @@ voici la procédure à suivre dans ce cas:
   pwd
   ```
   qui devrait vous répondre quelque chose qui contient votre nom, comme genre
-  ```
+  ```bash
   C:\Users\Jean Mineur
   ```
 * se déplacer dans le dossier où vous avez téléchargé le programme d'installation (généralement `Downloads`)
@@ -190,7 +190,7 @@ pour installer `git`, utilisez ce lien:
   :class: dropdown tip
   si vous optez pour la méthode "XCode", on vous dit de taper `git --version` pour déclencher l'installation de XCode; si cela vous affiche seulement un message d'erreur, vous pouvez aussi lancer l'installation de XCode directement depuis le terminal avec la commande suivante:
 
-  ``` bash
+  ```bash
   xcode-select --install
   ```
   ````
@@ -217,12 +217,12 @@ vous devez pouvoir
   echo $BASH_VERSION
   ```
   qui doit répondre
-  ```
+  ```bash
   5.2.15(1)-release        # c'est juste un exemple hein
   ```
   ````{admonition} zsh sur Mac
   :class: dropdown
-  
+
   si vous avez un Mac, il se peut que votre terminal soit un `zsh` et pas un `bash`  
   ce n'est pas un souci, les deux outils sont très largement compatibles !  
   pour savoir quel est exactement votre shell, vous pouvez faire  
@@ -268,7 +268,7 @@ c'est dans ce dossier qu'on vous invite à travailler pendant les cours d'info
   pwd
   ```
   qui devrait vous répondre quelque chose qui contient votre nom, comme genre
-  ```
+  ```bash
   # sur Windows
   /c/Users/Jean Mineur
   # sur Mac / Linux
@@ -366,7 +366,7 @@ si on ne le fait pas, ça semble fonctionner, mais on a des tas de problèmes as
   code --version
   ```
   qui doit afficher un numéro de version (et d'autres détails, par exemple
-  ```
+  ```bash
   1.84.2
   1a5daa3a0231a0fbba4f14db7ec463cf99d7768e
   x64
@@ -376,7 +376,7 @@ si on ne le fait pas, ça semble fonctionner, mais on a des tas de problèmes as
   :class: dropdown note
 
   si à la place vous voyez  
-  ```
+  ```bash
   code: command not found
   ```
   d'abord vérifiez que vous avez bien essayé **dans un nouveau terminal** (oui je sais...)  

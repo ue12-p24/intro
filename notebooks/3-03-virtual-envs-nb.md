@@ -98,7 +98,7 @@ aide-mémoire en permanence sous les yeux !
 
 ### la liste de mes environnements
 
-```
+```bash
 [base] ~ $ conda env list
 conda environments:
 #

@@ -136,7 +136,7 @@ git config --global user.name Jean Mineur  # ne marche pas
 ça n'aurait pas fonctionné car le shell (bash) ici aurait vu **deux paramètres** différents  
 et c'est pourquoi il faut mettre les `"` autour de `Jean Mineur` comme ceci
 
-```
+```bash
 git config --global user.name "Jean Mineur"  # ok maintenant
 ```
 

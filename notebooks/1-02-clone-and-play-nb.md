@@ -168,7 +168,7 @@ le `git clone` a donc créé un dossier qui s'appelle `intro` dans lequel vous p
   ```
 
 et une fois dans le bon dossier vous tapez
-```
+```bash
 jupyter lab
 ```
 

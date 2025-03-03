@@ -598,7 +598,7 @@ ainsi le rôle de l'OS c'est principalement de fournir de l'**isolation** entre 
   * sur linux, lancez `top` ou `htop`
 
   et vous allez voir les dizaines de programmes qui sont actifs dans votre ordinateur
-
+  ```
 * accès à la mémoire: chaque programme a accès à un espace qui lui est propre
 * accès (concurrents) aux autres périphériques, notamment
   * mémoire de masse (*aka* "disque dur" même si on a presque tous un SSD maintenant...)

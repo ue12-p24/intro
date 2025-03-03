@@ -29,7 +29,7 @@ HTML(filename="_static/style.html")
 > micro démo de Visual Code sur le fichier `foo.txt`
 
 * depuis le terminal, aller dans le bon répertoire et lancer
-  ```
+  ```bash
   code .
   ```
 
@@ -286,7 +286,7 @@ $$
 
 +++ {"cell_style": "split"}
 
-```
+```latex
 \forall x \in \mathbb{R},
 \; \exists y \leq \epsilon
 ```
@@ -297,7 +297,7 @@ $$x_1=\frac{-b+\sqrt{b^2-4ac}}{2a}$$
 
 +++ {"cell_style": "split"}
 
-```
+```latex
 x_1=\frac{-b+\sqrt{b^2-4ac}}{2a}
 ```
 
@@ -315,7 +315,7 @@ $$
 
 +++ {"cell_style": "split"}
 
-```
+```latex
 $$
 A_{m,n} =
  \begin{pmatrix}
@@ -335,7 +335,7 @@ $$
 
 +++ {"cell_style": "split", "slideshow": {"slide_type": ""}}
 
-```
+```latex
 \sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}
 ```
 

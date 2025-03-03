@@ -144,7 +144,7 @@ avec Windows: vous tapez `jupyter lab` dans le terminal, vous avez bien la litan
 :class: seealso
 
 il faut savoir d'abord que, parmi la dite litanie de messages il y a vers la fin quelque chose qui ressemble à
-```
+```bash
     To access the server, open this file in a browser:
         file:///Users/tparment/Library/Jupyter/runtime/jpserver-44282-open.html
     Or copy and paste one of these URLs:
