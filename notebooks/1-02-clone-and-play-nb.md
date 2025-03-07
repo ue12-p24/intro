@@ -9,16 +9,6 @@ kernelspec:
   name: python3
 ---
 
-Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
-
-```{code-cell}
-:tags: [raises-exception]
-
-%%python
-from IPython.display import HTML
-HTML(filename="_static/style.html")
-```
-
 (label-clone-course)=
 # cloner et lire le cours
 

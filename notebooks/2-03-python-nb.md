@@ -10,19 +10,6 @@ kernelspec:
   name: calysto_bash
 ---
 
-Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
-
-```{code-cell}
----
-slideshow:
-  slide_type: ''
-tags: [raises-exception]
----
-%%python
-from IPython.display import HTML
-HTML(filename="_static/style.html")
-```
-
 # Python
 
 +++

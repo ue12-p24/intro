@@ -14,16 +14,6 @@ language_info:
   name: bash
 ---
 
-Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
-
-```{code-cell}
-:tags: [raises-exception]
-
-%%python
-from IPython.display import HTML
-HTML(filename="_static/style.html")
-```
-
 # le terminal
 
 le premier outil que nous allons voir c'est ce qu'on appelle le terminal;  

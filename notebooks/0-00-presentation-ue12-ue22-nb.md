@@ -13,15 +13,9 @@ language_info:
   pygments_lexer: ipython3
 ---
 
-Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
+# L'enseignement de l'informatique en première année
 
-```{code-cell} ipython3
-:tags: [raises-exception]
-
-%%python
-from IPython.display import HTML
-HTML(filename="_static/style.html")
-```
+*la petite introduction sur les enseignements lors de la pré-rentrée*
 
 ````{admonition} pour démarrer
 :class: tip
@@ -29,18 +23,11 @@ HTML(filename="_static/style.html")
 pour accéder rapidement à cette page, tapez dans votre navigateur
 
 ```bash
-https://ue12-p24-intro.rtfd.io/
+https://ue12-p24.github.io/intro/
 ```
 
 ````
 
-+++
-
-*la petite introduction sur les enseignements lors de la pré-rentrée*
-
-+++
-
-# L'enseignement de l'informatique en première année
 
 - **deux modules** d'enseignement par semestre
 - un module comporte **9 séances** de cours

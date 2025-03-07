@@ -10,14 +10,6 @@ kernelspec:
   name: python3
 ---
 
-Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
-
-```{code-cell}
-%%python
-from IPython.display import HTML
-HTML(filename="_static/style.html")
-```
-
 # troubleshooting
 
 les erreurs les plus fréquentes lors des installations

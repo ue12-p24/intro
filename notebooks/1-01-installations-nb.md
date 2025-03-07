@@ -9,16 +9,6 @@ kernelspec:
   name: python3
 ---
 
-Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
-
-```{code-cell}
-:tags: [raises-exception]
-
-%%python
-from IPython.display import HTML
-HTML(filename="_static/style.html")
-```
-
 # installations
 
 ce notebook vise à vous permettre de faire toutes les installations nécessaires

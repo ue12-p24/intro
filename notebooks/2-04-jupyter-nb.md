@@ -15,16 +15,6 @@ language_info:
   name: bash
 ---
 
-+++ {"slideshow": {"slide_type": ""}}
-
-Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
-
-```{code-cell}
-%%python
-from IPython.display import HTML
-HTML(filename="_static/style.html")
-```
-
 (label-jupyter)=
 # jupyter et notebooks
 

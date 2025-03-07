@@ -10,16 +10,6 @@ kernelspec:
   name: calysto_bash
 ---
 
-+++ {"slideshow": {"slide_type": ""}}
-
-Licence CC BY-NC-ND, Thierry Parmentelat & Valérie Roy
-
-```{code-cell}
-%%python
-from IPython.display import HTML
-HTML(filename="_static/style.html")
-```
-
 # environnements virtuels
 
 on voit ici comment créer de multiples environnements Python; ce n'est sans doute pas utile dans l'immédiat, mais cela vous sera peut-être utile bientôt...
