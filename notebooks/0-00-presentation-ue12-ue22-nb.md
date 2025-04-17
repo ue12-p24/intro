@@ -367,19 +367,31 @@ vous prendrez un de ces langages au choix
 
 * - cours
   - URL
+  - github
 * - intro (ce cours)
   - <https://ue12-p24-intro.readthedocs.io/>
+  - <https://github.com/ue12-p24/intro>
 * - Python numérique
   - <https://ue12-p24-numerique.readthedocs.io/>
+  - <https://github.com/ue12-p24/numerique>
 * - GIT
   - <https://ue12-p24-git.readthedocs.io/>
+  - <https://github.com/ue12-p24/git>
 * - Python avancé
-  - <https://flotpython-slides.readthedocs.io/>
+  - <https://ue12-p24-python.readthedocs.io/>
+  - <https://github.com/flotpython/slides>
 * - C++
   - <https://cpp.bmarchand.fr/>
+  - ??
+* - Web frontend
+  - <https://ue22-p24-web.readthedocs.io/>
+  - <https://github.com/ue22-p24/web>
+* - Web backend
+  - <https://ue22-p24.github.io/backend/>
+  - <https://github.com/ue22-p24/backend>
 ```
 
-% S2 - à paraitre
+ S2 - à paraitre
 % * - Web
 %  - <https://ue12-p24-web.readthedocs.io/>
 % * Réseau
