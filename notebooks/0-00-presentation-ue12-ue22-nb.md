@@ -36,27 +36,25 @@ https://ue12-p24-intro.rtfd.io/
 
 +++
 
-*la petite introduction sur les enseignements lors de la pré-rentrée*
+*la petite introduction sur les enseignements commencée lors de la pré-rentrée*
 
 +++
 
 # L'enseignement de l'informatique en première année
 
-- **deux modules** d'enseignement par semestre
-- un module comporte **9 séances** de cours
-- chaque séance dure **3 heures**  
-- chaque module aborde **une thématique** (numérique/data, programmation, web-réseau, projets)
-
-$\Rightarrow$ ce qui correspond à "*moins de 4 semaines temps plein*" dédiées aux cours d'informatique  
+- **4 modules** d'enseignement (un module = 9 séances de 3 heures)  
+   chacun sur une **thématique**: *numérique/data*, *programmation*, *web-réseau*, *projets*  
+   (moins de 4 semaines de cours d'informatique dans l'année)
 
 
-pour couvrir une toute petite partie ***d'un domaine extrêmement vaste***  
-***indispensable à tout le monde, quelle que soit votre orientation professionnelle future***
+- on ne couvre qu'une toute **petite partie** d'un **très vaste domaine**  
+  c'est le **minimum du minimum** pour tout élève *quelle que soit sa future orientation professionnelle*
 
-il est impossible de progresser sans une **implication personnelle en dehors des séances de cours**  
-***$\Rightarrow$  vous devez reviser le cours et terminer ou refaire les exercices d'une séance à une autre !***
+- vous ne progresserez que grâce à une **implication personnelle** en dehors des séances de cours  
+  d'une séance à l'autre vous devez: **relire** les notebooks, **revoir** et **terminer** les exercices  
+  et **lire** en autonomie les notebook non étudiés en cours
 
-un autre rappel important ***votre présence est obligatoire à toutes les séances d'informatique***
+- votre **présence est obligatoire** à toutes les séances d'informatique
 
 +++
 
@@ -85,8 +83,18 @@ les deux modules:
 
 ### au second semestre `UE22`
 
-- un module sur le Web et les réseaux
-- un module dédié aux projets informatique
+les deux modules:
+
+----------
+
+1. un module **réseau** et **Web frontend et backend**
+
+----------
+
+2. un module de **projets informatique**
+   * réalisés, en équipe de 4, sur une semaine *bloquée* (du 30 juin au 4 juillet)
+   * avec des sujets proposés par des **alumni**, des **enseignants-chercheurs** des mines   
+     et par les **élèves** motivés par leurs projets personnels 
 
 ----------
 
@@ -162,7 +170,7 @@ ces quelques compétences en informatiques sont **incontournables quel que soit 
 
 ----
 
-en cas de **dificulté**: compréhension, charge de travail, rapidité des cours (trop/pas assez), motivation, problème de portable...
+en cas de **difficulté**: compréhension, charge de travail, rapidité des cours (trop/pas assez), motivation, problème de portable...
 
 > contacter valerie.roy@minesparis.psl.eu
 
@@ -244,21 +252,13 @@ en cas de **dificulté**: compréhension, charge de travail, rapidité des cours
   - séances
   - contenu
 
-* - rudiments de Web
+* - Web frontend
   - 5
   - HTML, CSS, JavaScript
 
-* - réseau
-  - 2
-  - TCP/IP, http
-
-* - site Web
-  - 1
-  - réaliser un site web en flask
-
-* - hackaton-WEB
-  - 1
-  - réaliser un code en groupe de 4
+* - Web backend
+  - 4
+  - TCP/IP, http, serveurs d'API 
 ```
 
 ```{list-table} **PI** *Projet Informatique* (2 ECTS) en groupe de 4 élèves
@@ -273,16 +273,13 @@ en cas de **dificulté**: compréhension, charge de travail, rapidité des cours
   - contenu
 
 * - travail en groupe
-  - 6
-  - libérées
+  - semaine bloquée
+  -
 
 * - propriété intellectuelle/industrielle
   - 1
   - conférence
 
-* - soutenances
-  - 2
-  - présentation des projets en groupe
 ```
 
 ````{admonition} à propos du module PI
@@ -391,7 +388,7 @@ vous prendrez un de ces langages au choix
   - <https://github.com/ue22-p24/backend>
 ```
 
- S2 - à paraitre
+% S2 - à paraître
 % * - Web
 %  - <https://ue12-p24-web.readthedocs.io/>
 % * Réseau
@@ -411,7 +408,7 @@ les notebooks sont plutôt rédigés pour être étudiés *en autonomie*
   (plutôt que de lire les notebooks dans votre coin... vous les relirez bien sûr entre les cours)
 > en cours: on commence les apprentissages ensemble en parcourant des *notebooks*
 
-> à-la-maison: vous terminez les notebooks commencés et vous relisez les notebooks déjà vus
+> à-la-maison: vous terminez les notebooks commencés, vous relisez les notebooks déjà vus et vous lisez les autres en autonomie
 
 +++
 
@@ -455,34 +452,48 @@ on pourra envisager de donner un accès à ce service aux élèves qui auraient 
 
 ## Ressources Internet & IA
 
-vous êtes naturellement autorisés à utiliser toutes les ressources disponibles sur Internet
-
 ### google, StackOverflow
 
-S'agissant des ressources "classiques" telles que la recherche google, et les sites spécialisés comme StackOverflow, leur usage est même **fortement recommandé**; vous rencontrez un concept pour la première fois, ou vous avez de la difficulté à écrire un morceau de code, vous devez avoir le réflexe de chercher à en savoir plus sur google ou wikipedia, ou à trouver une solution sur SO (stackoverflow), ...
+L'usage des **ressources "classiques"** (recherche *google*, sites spécialisés comme StackOverflow...) est **fortement recommandé**  
+Vous rencontrez un concept pour la première fois ?  
+Vous avez des difficultés avec certaines instructions dans un morceau de code ?  
+Vous ne comprenez pas un message d'erreur ?  
+
+**$\Rightarrow$** Ayez le réflexe de chercher à en savoir plus sur *google* ou *wikipedia*, ou à trouver une solution sur *stackoverflow*...
 
 
 ### chatGPT[^chatgpt], Copilot[^copilot]
 
-Toute cette famille d'outils récents issue de l'IA sont clairement de très bons outils **d'aide** à la programmation, et nous ne pouvons pas les ignorer  
+```{admonition} Vous êtes un programmeur **expérimenté** ?  
 
-````{admonition} Quelle est leur place dans les cours ?
+> votre niveau vous permet:
+> - de **juger** de la **qualité** du code proposé, de le **tester**, de le **critiquer**    
+> - éventuellement de le **corriger**, l'**améliorer**, vous en servir de **base** ou le **jeter** 
 
-> il faut les voir comme une amélioration, voire un remplacement des recherches Internet/stack-overflow/...
+> ces outils sont alors de très bons **assistants** qui peuvent vous faire **gagner du temps**  
+  et vous donner des **idées** dans l'écriture de certaines parties du code
 
-> ***mais* ils ne se substituent pas** au programmeur ...  
-> ils peuvent simplement lui faire gagner du temps dans l'écriture de certaines parties du code
+```
 
-> naturellement les résultats qu'ils vous donnent demandent à être **très soigneusement testés et validés**[^responsible]  
-> puisque le code qu'ils vous proposent peut contenir des erreurs
+```{admonition} Vous êtes un programmeur **débutant** ?
 
-> sans connaissance suffisante en programmation $\Rightarrow$  vous ne pourrez pas exploiter correctement leurs résultats
-````
+> Ces outils, dans leur version classique, ne s'utilisent pas comme de simples **améliorations** des recherches sur Internet:  
+  ils se **substituent** à vous et codent votre problème **à votre place**.  
 
-donc, ce que nous vous conseillons fortement:
+> Difficile, pour un débutant:  
+> - de **comprendre** un code généré avec des constructions très avancées (qu'on n'utilise pas quand on débute)
+> - de **corriger** un code qui sera toujours *un peu faux par ci par là*
 
-1. d'abord vous apprenez à programmer
-2. de manière ensuite à être capables de tirer partie de ces nouveaux outils
+> si vous utilisez une IA:
+> - vous allez **passer à côté** de l'apprentissage de base de la programmation par **recherche, essai, erreur**
+> - une fois le code généré, vous ne serez pas capable d'imaginer une autre manière de faire  
+
+>  mal utilisés, ces outils seront **contre productifs** voire nuisibles à vos apprentissages
+> donc, ce que nous vous conseillons fortement:
+> 1. d'abord vous apprenez à programmer
+> 2. de manière ensuite à être capables de tirer partie de ces nouveaux outils
+
+```
 
 ---
 
